@@ -170,7 +170,7 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   if (numero === 0){
-    return false;
+    return false
   }
   else if (numero > 0){
     return "Es positivo"
@@ -240,7 +240,7 @@ function esVocal(letra){
 if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
   return "Es vocal"
 }else{return "Dato incorrecto"}
-
+}
 
 
 // No modificar nada debajo de esta línea
